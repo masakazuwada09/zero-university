@@ -93,8 +93,8 @@ export function Hero() {
       {/* Bottom Indicators & Floating Elements */}
       <div className="relative z-10 mx-auto max-w-7xl w-full flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-white/10 font-mono text-xs text-white/50">
         <div className="flex items-center gap-3">
-          <span className="h-2 w-2 rounded-full bg-forest-500" />
-          <span>COORDINATES: 47.3769° N, 8.5417° E</span>
+          <span className="h-2 w-2 rounded-full bg-mint-accent animate-pulse" />
+          <span>COORDINATES: 35.7148° N, 139.7940° E // TOKYO LAB [1-CHŌME-25 ASAKUSA]</span>
         </div>
 
         {/* Scroll Indicator */}

@@ -44,7 +44,7 @@ const socraticQuestions = [
 
 const liveFellows = [
   { city: "Zurich", project: "Bio-Carbon Crystal Lattice", latency: "14ms", status: "Compiling" },
-  { city: "Tokyo", project: "Neural Latent Space Navigator", latency: "22ms", status: "Benchmarking" },
+  { city: "Tokyo (Asakusa)", project: "Neural Latent Space Navigator", latency: "18ms", status: "Benchmarking" },
   { city: "San Francisco", project: "Zero-Knowledge Sovereign Identity", latency: "9ms", status: "Deployed" },
   { city: "Reykjavik", project: "Geothermal Grid Autonomous Router", latency: "31ms", status: "Synthesizing" },
 ];

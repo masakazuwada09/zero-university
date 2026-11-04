@@ -180,7 +180,7 @@ export function Navigation({ onOpenApply }: NavigationProps) {
                 <ArrowUpRight className="h-4 w-4" />
               </button>
               <div className="flex items-center justify-between font-mono text-xs text-white/40 pt-2">
-                <span>ZURICH • TOKYO • SAN FRANCISCO</span>
+                <span>ZURICH • TOKYO (ASAKUSA) • SAN FRANCISCO</span>
                 <span>VER 4.0</span>
               </div>
             </div>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { MagneticButton } from "./MagneticButton";
 import { sound } from "@/lib/sound";
-import { ArrowUp, Atom, FileText, Globe } from "lucide-react";
+import { ArrowUp, Atom, FileText, Globe, MapPin } from "lucide-react";
 
 export function Footer() {
   const [times, setTimes] = useState({
@@ -59,7 +59,10 @@ export function Footer() {
           <div className="p-4 rounded-2xl border border-white/5 bg-forest-900/30">
             <span className="text-white/40 block mb-1">TOKYO [LAB]</span>
             <span className="font-bold text-white text-base">{times.tokyo}</span>
-            <span className="text-[10px] text-mint-accent/80 block mt-1">35.6762° N, 139.6503° E</span>
+            <span className="text-[10px] text-mint-accent/80 block mt-1">35.7148° N, 139.7940° E</span>
+            <span className="text-[10px] text-white/40 block mt-0.5 truncate">
+              1-chōme-25 Asakusa, Taito City
+            </span>
           </div>
 
           <div className="p-4 rounded-2xl border border-white/5 bg-forest-900/30">
@@ -87,10 +90,19 @@ export function Footer() {
             <p className="font-serif italic text-base text-white/70 max-w-sm mb-6 font-light">
               &ldquo;An unaccredited sanctuary for those who refuse to wait for permission to understand the world.&rdquo;
             </p>
-            <div className="flex items-center gap-2 text-mint-accent text-[11px]">
+            <div className="flex items-center gap-2 text-mint-accent text-[11px] mb-3">
               <Globe className="h-3.5 w-3.5" />
               <span>POST-DISCIPLINARY JURISDICTION // INDEPENDENT COMMONS</span>
             </div>
+            <a
+              href="https://maps.google.com/?q=1-ch%C5%8Dme-25+Asakusa,+Taito+City,+Tokyo+111-0032,+Japan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-start gap-2 text-white/50 hover:text-mint-accent transition-colors text-[11px] font-mono"
+            >
+              <MapPin className="h-3.5 w-3.5 text-mint-accent shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+              <span>1-chōme-25 Asakusa, Taito City, Tokyo 111-0032, Japan</span>
+            </a>
           </div>
 
           <div className="md:col-span-3 flex flex-col gap-3">
